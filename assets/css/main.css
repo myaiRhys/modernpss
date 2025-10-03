@@ -5,6 +5,7 @@
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -3582,6 +3583,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), linear-gradient(to bottom, #5dbdbb 0%, #2a9d8f 50%, #1a7d71 100%) !important;
 	}
 
 		#banner h2 {
