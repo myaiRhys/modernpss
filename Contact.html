@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us | Printed Shadenet Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 </head>
-<body>
+<body class="is-preload">
+
+    <!-- Header -->
     <header id="header" class="alt">
-        <h1><a href="index.html"><img src="images/pss-logo.png" alt="PSS" style="height: 50px;" /></a></h1>
+        <h1>
+            <a href="index.html">
+                <img src="images/pss-logo.png" alt="Printed Shadenet Solutions" style="height: 50px;">
+            </a>
+        </h1>
         <nav id="nav">
             <ul>
                 <li class="special">
@@ -26,27 +34,53 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <p>
-                Have questions or want to discuss your project? Get in touch with us!
-            </p>
-            <ul>
-                <li><strong>Email:</strong> info@printedshadenet.co.za</li>
-                <li><strong>Phone:</strong> +27 12 345 6789</li>
-                <li><strong>Address:</strong> 123 Fence Branding Ave, City, South Africa</li>
-            </ul>
-            <h2>Send Us a Message</h2>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
+
+    <!-- Main -->
+    <main id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you. Let’s talk about your next project.</p>
+            </header>
+
+            <section>
+                <ul>
+                    <li><strong>Email:</strong> info@printedshadenet.co.za</li>
+                    <li><strong>Phone:</strong> +27 72 647 8094</li>
+                    <li><strong>Address:</strong> Unit 10, Celie Industrial Park, Celie Road, Retreat, South Africa</li>
+                </ul>
+
+                <hr>
+
+                <h3>Send Us a Message</h3>
+                <form method="post" action="#" id="contact-form">
+                    <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="col-12">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Type your message here..." rows="6" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions">
+                                <li><button type="submit" class="primary">Send Message</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
-</body>
-</html>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/printedshadenet" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/printedshadenet" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="mailto:info@printedshadenet.co.za" class="icon solid fa-envelope"><span c
