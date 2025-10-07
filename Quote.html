@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Get a Quote | Printed Shadenet Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 </head>
-<body>
+<body class="is-preload">
+
+    <!-- Header -->
     <header id="header" class="alt">
-        <h1><a href="index.html"><img src="images/pss-logo.png" alt="PSS" style="height: 50px;" /></a></h1>
+        <h1>
+            <a href="index.html">
+                <img src="images/pss-logo.png" alt="Printed Shadenet Solutions" style="height: 50px;">
+            </a>
+        </h1>
         <nav id="nav">
             <ul>
                 <li class="special">
@@ -26,21 +34,75 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <p>
-                Ready to transform your fencing with custom branding? Fill out the form below for a free, no-obligation quote.
-            </p>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="project">Project Details:</label><br>
-                <textarea id="project" name="project"></textarea><br>
-                <button type="submit">Get Quote</button>
-            </form>
-        </section>
+
+    <!-- Main -->
+    <main id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>Request a Quote</h2>
+                <p>Let’s get started on your custom printed shadenet project.</p>
+            </header>
+
+            <section>
+                <p>
+                    Ready to transform your fencing with professional branding?  
+                    Fill out the form below and we’ll get back to you with a free, no-obligation quote.
+                </p>
+
+                <form method="post" action="#" id="quote-form">
+                    <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="company">Company</label>
+                            <input type="text" name="company" id="company" placeholder="Your Company Name" />
+                        </div>
+                        <div class="col-12">
+                            <label for="project">Project Details</label>
+                            <textarea name="project" id="project" placeholder="Tell us about your project (size, quantity, location, etc.)" rows="6" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions">
+                                <li><button type="submit" class="primary">Get My Quote</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/printedshadenet" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/printedshadenet" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="mailto:info@printedshadenet.co.za" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; 2025 Printed Shadenet Solutions. All rights reserved.</li>
+            <li>Design by PSS Digital</li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 </html>
