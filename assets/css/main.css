@@ -3583,8 +3583,8 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		background:url("images/banner.jpg") no-repeat center center;
-    background-size: cover;
+		background: url("images/banner.jpg") no-repeat center center;
+background-size: cover;
 }
 
 		#banner h2 {
@@ -4000,6 +4000,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
