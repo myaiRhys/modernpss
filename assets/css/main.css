@@ -2952,8 +2952,9 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
-		}
+			background-color: #80CBC4 !important; /* Light teal for Services and Process */
+    color: #00695C; /* Dark teal text for contrast */
+}
 
 		.wrapper.style3 {
 			background-color: #505393;
@@ -3972,6 +3973,7 @@ background-size: cover;
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
