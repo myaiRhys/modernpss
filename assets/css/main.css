@@ -2793,16 +2793,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #B2DFDB;
+			color: #00695C;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #004D40;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #004D40;
 			}
 
 			.wrapper.style1 hr {
@@ -3972,6 +3972,7 @@ background-size: cover;
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
