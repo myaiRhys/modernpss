@@ -40,7 +40,8 @@
 					</header>
 
 		<!-- Banner -->
-<section id="banner" style="background: url('images/banner.jpg') no-repeat center center; background-size: cover;">
+<section id="banner" style="background: url('images/banner.jpg') no-repeat center center; background-size: cover; position: relative;">
+  <div class="banner-overlay"></div>
   <div class="inner">
     <p class="tagline">Nearly 20 Years of Excellence</p>
 
@@ -195,6 +196,22 @@
 
 <!-- Styling for enhanced hero and new elements -->
 <style>
+  /* Dark overlay for banner */
+  #banner .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  #banner .inner {
+    position: relative;
+    z-index: 2;
+  }
+
   #banner .tagline {
     font-size: 1em;
     letter-spacing: 2px;
