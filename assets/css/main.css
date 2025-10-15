@@ -2793,8 +2793,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #B2DFDB;
-			color: #00695C;
+    background-color: #2e3842;
+    color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3973,6 +3973,7 @@ background-size: cover;
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
